@@ -1,0 +1,13 @@
+[Unit]
+Description=Fire the NIFTY Swing Lab at NSE trading times (IST)
+
+[Timer]
+# The script itself skips NSE holidays and infers morning/midday/close.
+OnCalendar=Mon..Fri 09:30 Asia/Kolkata
+OnCalendar=Mon..Fri 12:00 Asia/Kolkata
+OnCalendar=Mon..Fri 14:00 Asia/Kolkata
+OnCalendar=Mon..Fri 15:50 Asia/Kolkata
+Persistent=true
+
+[Install]
+WantedBy=timers.target
