@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-23T03:30:55Z",
+  "updated": "2026-11-23T04:30:56Z",
   "mode": "paper",
   "start": "2026-11-13",
-  "asof": "2026-11-20",
-  "value": 20811.0,
+  "asof": "2026-11-23",
+  "value": 20503.0,
   "cash": 1185.0,
-  "pnl_abs": 811.0,
-  "pnl_pct": 4.05,
+  "pnl_abs": 503.0,
+  "pnl_pct": 2.51,
   "open_positions": 5,
   "n_closed": 0,
   "win_rate": 0,
-  "maxdd_pct": 0.0
+  "maxdd_pct": -1.5
 }
